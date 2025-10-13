@@ -1,0 +1,20 @@
+import {test,expect} from '@playwright/test';
+ class homepage {
+    async  logoutbtn (page:Page)
+    {
+       await expect (page).locator(#logoutbtn).toBeVisible()
+    }
+    async  homepagefunctionality(page:Page)
+    {
+     await page.locator("[name='name']").fill('Maddipati NagendraKumar');
+     await page.locator("[name='address']").fill('East Godavari');
+     await page.locator("[name='state']").selectOption('Andhra Pradesh');
+
+
+
+    }
+    }
+
+
+
+ 

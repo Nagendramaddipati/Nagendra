@@ -1,0 +1,215 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - dialog "Alert":
+    - text: Alert
+    - img
+    - text: "• Starting Oct 12,2025, only Aadhaar authenticated users are allowed to book tickets during first 30 minutes of the first day of opening of reserved ticket booking. • Starting July 1, 2025, only Aadhaar authenticated users are allowed to book Tatkal Train Tickets on the IRCTC Website and Mobile Apps. Avoid last-minute inconvenience! Authenticate your IRCTC User ID now by following these steps: o Log in to IRCTC website or IRCTC Rail Connect Mobile App. o Go to \"My Account\". o Click on “Authenticate User” and complete the process. Stay prepared for a hassle-free Tatkal booking experience! • 12 अक्टूबर 2025 से आरक्षित टिकट बुकिंग खुलने के प्रथम दिन के पहले 30 मिनट के दौरान केवल आधार प्रमाणित उपयोगकर्ताओं को ही टिकट बुक करने की अनुमति है। • 1 जुलाई 2025 से केवल आधार प्रमाणित उपयोगकर्ताओं को ही आईआरसीटीसी वेबसाइट और मोबाइल ऐप पर तत्काल ट्रेन टिकट बुक करने की अनुमति है। नीचे दिए गए निर्देशों का पालन करते हुए, अपने उपयोगकर्ता (यूजर आई डी)को समय से आधार द्वारा प्रमाणित करें और असुविधा से बचें: o आईआरसीटीसी वेबसाइट या आईआरसीटीसी रेल कनेक्ट मोबाइल ऐप में लॉगिन करें ! o \" मेरा खाता\" में जाएं ! o \" उपयोगकर्ता को प्रमाणित करें\" पर क्लिक करें और प्रक्रिया को पूरी करें !"
+    - button: OK
+  - banner:
+    - img "Indian railway logo"
+    - img "IRCTC Logo"
+    - text: 
+  - complementary
+- img "Pnr Icon"
+- link "PNR Status opens a new window":
+  - /url: http://www.indianrail.gov.in/enquiry/PNR/PnrEnquiry.html?locale=en
+  - text: PNR STATUS
+- img "Pnr Icon"
+- link "Reservation Chart. Website will be opened in new tab":
+  - /url: https://www.irctc.co.in/online-charts/
+  - text: CHARTS / VACANCY
+- text: BOOK TICKET 
+- searchbox
+- text: From  
+- searchbox
+- text: To 
+- textbox: 11/10/2025
+- text: DD/MM/YYYY * 
+- listbox "All Classes"
+- text: All Classes
+- button ""
+- text: 
+- listbox "GENERAL"
+- text: GENERAL
+- button ""
+- checkbox "Check for DIVYAANG Concession Booking."
+- text: Person With Disability Concession
+- checkbox "Check to fetch trains runs on other days than you are searching for."
+- text: Flexible With Date
+- checkbox "Check for Available Vacant Berth"
+- text: Train with Available Berth
+- checkbox "Check for pass Booking"
+- text: Railway Pass Concession
+- button "Search"
+- button "Easy Booking on AskDISHA"
+- paragraph:
+  - text: "Festival Round Trip Scheme:"
+  - link "User Guide":
+    - /url: https://contents.irctc.co.in/en/userguidertrip.pdf
+  - text: and
+  - link "Terms & Conditions":
+    - /url: https://contents.irctc.co.in/irctc/en/RoundTripTnC.pdf
+  - text: Customers can use enhanced interface for their IRCTC related queries!!
+  - link "https://equery.irctc.co.in":
+    - /url: https://equery.irctc.co.in/
+  - text: "Customer Care Numbers : Dial 14646 (Within India); Call: +91-8044647999 / +91-8035734999(Outside India)"
+- text: INDIAN RAILWAYS SafetySecurityPunctuality
+- heading "Have you not found the right one? Find a service suitable for you here." [level=2]
+- list:
+  - listitem:
+    - link "Flight opens a new window":
+      - /url: https://www.air.irctc.co.in/
+      - text: FLIGHTS
+  - listitem:
+    - link "HOTELS":
+      - /url: https://www.hotels.irctc.co.in
+  - listitem:
+    - link " RAIL DRISHTI":
+      - /url: https://raildrishti.indianrailways.gov.in/
+  - listitem:
+    - link "E-CATERING":
+      - /url: https://www.ecatering.irctc.co.in/
+  - listitem:
+    - link " BUS":
+      - /url: https://www.bus.irctc.co.in/home
+  - listitem:
+    - link "HOLIDAY PACKAGES":
+      - /url: https://www.irctctourism.com/tourpacakage_search?searchKey=&tagType=&travelType=&category=
+  - listitem:
+    - link "TOURIST TRAIN":
+      - /url: https://www.irctctourism.com/bharatgaurav
+  - listitem:
+    - link "HILL RAILWAYS":
+      - /url: https://www.irctctourism.com/gallery/
+  - listitem:
+    - link "CHARTER TRAIN":
+      - /url: https://www.ftr.irctc.co.in/ftr/
+  - listitem:
+    - link "GALLERY":
+      - /url: https://www.irctctourism.com/gallery/
+- heading "HOLIDAYS" [level=2]
+- img "Maharajas Express"
+- heading "Maharajas' Express" [level=3]
+- paragraph: Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of bygone stately splendour of princely states. Sylvan furnishings, elegant ambience and modern amenities are amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by World Travel Awards consecutively for last six years.
+- link "More info about Maharaja's Express":
+  - /url: http://www.the-maharajas.com/
+  - strong: Read More
+  - text: 
+- img "International Packages"
+- heading "International Packages" [level=3]
+- paragraph: Best deals in International Holiday packages, handpicked by IRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages are inclusive of sightseeing, meals, visa charges and overseas medical insurance to give you a hassle-free and memorable experience.
+- link "Read More ":
+  - /url: https://www.irctctourism.com/#/tourpacakage_search?searchKey=&tagType=&travelType=International&sector=All
+  - strong: Read More
+  - text: 
+- img "Domestic Air Packages"
+- heading "Domestic Air Packages" [level=3]
+- paragraph: Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or the leisure traveller wanting to relish the Blue mountains of North East, Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or Picturesque Islands, IRCTC has it all. Discover India through IRCTC!
+- link "Read More ":
+  - /url: https://www.irctctourism.com/#/tourpacakage_search?searchKey=&tagType=&travelType=Domestic&sector=All
+  - strong: Read More
+  - text: 
+- img "Tourist Trains"
+- heading "Bharat Gaurav Tourist Train" [level=3]
+- paragraph: IRCTC operates Bharat Gaurav Tourist Train having AC III-Tier accommodation on train specially designed to promote domestic tourism in India. This train runs on various theme based circuits covering pilgrimage and heritage destinations in its itinerary on a 5 days to 20 days trip and showcase India’s rich cultural heritage.
+- link "Read More ":
+  - /url: https://www.irctctourism.com/bharatgaurav
+  - strong: Read More
+  - text: 
+- img "Rail/ Land Tour Packages"
+- heading "Rail Tour Packages" [level=3]
+- paragraph: IRCTC offers Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also available.
+- link "Read More ":
+  - /url: https://www.irctctourism.com/#/tourpkgs
+  - strong: Read More
+  - text: 
+- text: Get Connected with us on social networks
+- link "I.R.C.T.C. Official instagram page. opens a new windows":
+  - /url: https://www.facebook.com/IRCTCofficial/
+  - text: 
+- link "I.R.C.T.C. Official whatsapp page. opens a new windows":
+  - /url: https://whatsapp.com/channel/0029Va4wpCW84OmKdPNQi41P
+  - img
+- link "I.R.C.T.C. Official youtube page. opens a new windows":
+  - /url: https://youtube.com/c/IRCTCOFFICIAL
+  - text: 
+- link "I.R.C.T.C. Official facebook page. opens a new windows":
+  - /url: https://instagram.com/irctc.official?igshid=yyg5byow704l
+  - text: 
+- link "I.R.C.T.C. Official linkedin page. opens a new windows":
+  - /url: https://www.linkedin.com/company/irctcofficial
+  - text: 
+- link "I.R.C.T.C. Official telegram page. opens a new windows":
+  - /url: https://t.me/IRCTC_Official
+  - text: 
+- link "I.R.C.T.C. Official pinterest page. opens a new windows":
+  - /url: https://in.pinterest.com/irctcofficial/
+  - text: 
+- link "I.R.C.T.C. Official tumblr page. opens a new windows":
+  - /url: https://irctcofficial.tumblr.com/
+  - text: 
+- link "I.R.C.T.C. Official Koo page. opens a new windows":
+  - /url: https://www.kooapp.com/profile/irctcofficial
+  - img
+- link "I.R.C.T.C. Official twitter page. opens a new windows":
+  - /url: https://twitter.com/IRCTCofficial
+  - text: 
+- button "IRCTC Trains "
+- button "General Information "
+- button "Important Information "
+- button "Agents "
+- button "Enquiries "
+- button "How To "
+- button "IRCTC Official App "
+- button "Advertise with us "
+- button "Refund Rules "
+- button "Person With Disability Facilities "
+- button "IRCTC eWallet "
+- button "IRCTC Co-branded Card Benefits "
+- button "IRCTC-iPAY Payment Gateway "
+- button "IRCTC Zone "
+- button "DMRC Ticket Booking at IRCTC "
+- button "For Newly Migrated Agents "
+- button "Mobile Zone "
+- button "Policies "
+- button "Ask Disha ChatBot "
+- button "About us "
+- button "Help & Support":
+  - link "Help & Support":
+    - /url: https://equery.irctc.co.in/
+- button "E-Pantry "
+- img "Secured Payment Partner"
+- paragraph: Copyright Â© 2025 - www.irctc.co.in. All Rights Reserved
+- paragraph:
+  - text: Designed and Hosted by
+  - strong:
+    - link "CRIS":
+      - /url: http://cris.org.in
+- paragraph:
+  - strong:
+    - link "Compatible Browsers link opens a new windows":
+      - /url: http://contents.irctc.co.in/en/BetaSiteCompatibleBrowser.html
+      - text: Compatible Browsers
+- paragraph
+- iframe
+- link:
+  - /url: https://amzn.to/3i4lgCr
+  - img
+- img
+- img
+- img
+- img "Disha Avatar"
+- heading "AskDisha 2.0" [level=3]
+- paragraph: NextGen AI Ticketing
+- img "Ticket icon"
+- paragraph: टिकट बुक करें
+- iframe
+- link "drag logo":
+  - /url: https://adgebra.co/?utm_source=irctc&utm_medium=web&utm_id=cuboid
+  - img "drag"
+  - img "logo"
+- img
+- iframe
+```

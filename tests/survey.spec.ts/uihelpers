@@ -1,0 +1,15 @@
+import {test,expect} from '@playwright/test';
+ class uihelpers {
+     async navigatetourl(page:Page)
+     {
+        await page.goto('https://azkasurvey.com/login');
+
+     }
+    }    
+
+
+
+
+
+
+
