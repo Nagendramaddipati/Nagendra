@@ -8,4 +8,12 @@ export (test,expect) from '@playwright/test;
 
 
      }
+       async  enterlogin(page:Page)
+  {
+     await page.locator("[name='email']").fill('nagendra@azkasurvey.com');
+    await page.locator("[name='password']").fill('asdf');
+    await page.locator("[type='submit']").click;
+
+
+     }
   };  
